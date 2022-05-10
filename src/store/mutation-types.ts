@@ -1,3 +1,3 @@
-export enum TodosMutationTypes {
-    GET_DATA = 'GET_DATA',
-}
+export const SET_TODO_MUTATION = "SET_TODO_MUTATION";
+export const CHECK_TODO_MUTATION = "CHECK_TODO_MUTATION";
+export const GET_TODOS = "GET_TODOS";
