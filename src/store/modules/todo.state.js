@@ -44,7 +44,6 @@ const mutations = {
   },
 
   async toggleStatus(state, taskId) {
-    
     const selectedTask = state.all.find((task) => task.id === taskId);
     await service.put(selectedTask, taskId);
     selectedTask.completed = !selectedTask.completed;

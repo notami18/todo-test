@@ -8,7 +8,6 @@
     <label for="toggle-all"></label>
     <ul class="todo-list">
       <li
-
         class="todo"
         :class="{ completed: task.completed, editing: task == editedTodo }"
       >

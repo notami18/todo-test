@@ -5,7 +5,10 @@ import TodoNew from "./components/TodoNew.vue";
 <template>
   <section class="todoapp">
     <TodoNew />
-    <router-view/>
+    <section class="main">
+        <router-view/>
+    </section>
+  
   </section>
 </template>
 

@@ -15,7 +15,7 @@ const routes = [
         component: TodoActive,
     },
     {
-        path: "/complete",
+        path: "/completed",
         name: "Complete",
         component: TodoComplete,
     },
