@@ -30,7 +30,7 @@ npm run dev
 npm run db:serve
 ```
 
-## COmpilar proyecto:
+## Compilar proyecto:
 ```bash
 npm run build
 ```
